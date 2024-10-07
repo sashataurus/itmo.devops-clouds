@@ -43,11 +43,13 @@
    
    Тег latest всегда указывает на последнюю версию доступного образа Ubuntu, но если базовый образ обновится, то написанный Dockerfile может перестать работать: появятся проблемы с совместимостью и непрезсказуемое поведение в работе с контейнерами.
    
-2. `RUN`
+2. `RUN apt-get update`
+
+   `RUN apt-get install bash`
 
    пппп
    
-3. `чтото`
+4. `отсутствие WORKDIR`
    
    п
 
@@ -55,6 +57,19 @@
 ## "Good" Dockerfile
 ![IMG_9392](https://github.com/user-attachments/assets/8d00bf7f-2b54-4c22-b84d-b8d3a095f69d)
 
+Что стало "good"?
+
+1. `FROM ubuntu:22.04`
+   
+   Тег
+   
+2. `RUN apt-get update && apt-get install bash`
+
+   пппп
+   
+3. `WORKDIR /lab-2`
+   
+   п
 
 
 ## "Bad Guys" в контейнерах
