@@ -39,7 +39,7 @@
 
 **Azure Sentinel** - это сервис который обеспечивает интеллектуальную аналитику безопасности и анализ угроз по всему предприятию, помогая организациям быстро и эффективно обнаруживать, расследовать угрозы безопасности и реагировать на них.
 
-В результате получилась полностью заполненная [таблица](https://docs.google.com/spreadsheets/d/1UMQqGOzJvsmvzur5UppEaUERe12o5pvKqxt4NEhfA_M/edit?gid=1535595056#gid=1535595056)
+Таким образом получилась полностью заполненная [таблица](https://docs.google.com/spreadsheets/d/1UMQqGOzJvsmvzur5UppEaUERe12o5pvKqxt4NEhfA_M/edit?gid=1535595056#gid=1535595056)
 
 ![image](https://github.com/user-attachments/assets/4359040b-c6fe-4c95-a3b3-3bded15ceff9)
 
