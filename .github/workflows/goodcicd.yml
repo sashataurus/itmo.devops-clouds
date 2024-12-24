@@ -2,7 +2,7 @@ name: good ci/cd
 
 defaults:
   run:
-    working-directory: /lab-3
+    working-directory: ../lab-3
 
 on:
   push:
