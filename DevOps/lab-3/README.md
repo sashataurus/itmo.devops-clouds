@@ -40,6 +40,7 @@ jobs:
           echo "hi, I'm a bad guy"
           python hi.py
 ```
+![image](https://github.com/user-attachments/assets/e245b6a6-aa8b-4cf7-acc0-54e666749e52)
 
 Что же такого **"bad"** в этом файле?
 
