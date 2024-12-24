@@ -2,7 +2,7 @@ name: good ci/cd
 
 defaults:
   run:
-    working-directory: tree/main/DevOps/lab-3
+    working-directory: /home/runner/work/itmo.devops-clouds/tree/main/DevOps/lab-3
 
 on:
   push:
