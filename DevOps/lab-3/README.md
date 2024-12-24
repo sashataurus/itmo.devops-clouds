@@ -177,4 +177,5 @@ defaults:
 
 ---
 
-мемы
+![image](https://github.com/user-attachments/assets/add8fc65-407e-472f-997d-b15bb1dfe512)
+
