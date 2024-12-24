@@ -40,10 +40,10 @@ jobs:
           echo "hi, I'm a bad guy"
           python hi.py
 ```
-
+### Запуск :rocket:
 ![image](https://github.com/user-attachments/assets/e245b6a6-aa8b-4cf7-acc0-54e666749e52)
-![image](https://github.com/user-attachments/assets/59c0fcbe-5ff4-406e-b71e-652dff75e5fd)
-![image](https://github.com/user-attachments/assets/46a8d72f-b8c9-40fa-83cd-100c83a2c1df)
+![image](https://github.com/user-attachments/assets/fc20138d-ce5c-4eb2-8aaf-8c8659affcb5)
+![image](https://github.com/user-attachments/assets/3711ec44-b87b-491e-9b3e-db871ee1731a)
 
 
 Что же такого **"bad"** в этом файле?
@@ -132,7 +132,11 @@ jobs:
               echo "hi, I'm a good guy"
               python hi.py
 ```
+### Запуск :rocket:
 ![image](https://github.com/user-attachments/assets/9e7bb28d-9ca2-47e1-8343-5c1d4c0021c6)
+![image](https://github.com/user-attachments/assets/585aa468-c113-4107-bc54-6b7174d6b884)
+![image](https://github.com/user-attachments/assets/588f2189-68f0-408e-b9b9-d37cce512197)
+
 
 Что стало **"good"**?
 
