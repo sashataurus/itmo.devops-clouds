@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./lab-3
+        working-directory: ./DevOps/lab-3
     steps:
       - uses: actions/checkout@v3
       - run: |
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./lab-3
+        working-directory: ./DevOps/lab-3
     steps: 
       - uses: actions/checkout@v3
       - run: |
@@ -53,7 +53,7 @@ jobs:
 ```
     defaults:
       run:
-        working-directory: ./lab-3
+        working-directory: ./DevOps/lab-3
 ```
 Это прописано 2 раза: и для теста, и для деплоя. Лучше вывести defaults отдельно, чтобы каждый раз не прописывать и не нагромождать код, а еще это удобно в тех случаях, если при смене проекта мы поменяем общую папку.
    
@@ -85,7 +85,7 @@ name: good ci/cd
 
 defaults:
   run:
-    working-directory: ./lab-3
+    working-directory: ./DevOps/lab-3
 
 on:
   push:
@@ -127,6 +127,8 @@ jobs:
               echo "hi, I'm a good guy"
               python hi.py
 ```
+![image](https://github.com/user-attachments/assets/9e7bb28d-9ca2-47e1-8343-5c1d4c0021c6)
+
 Что стало **"good"**?
 
 **1. Определенный базовый образ**
@@ -139,7 +141,7 @@ jobs:
 ```
 defaults:
   run:
-    working-directory: ./lab-3
+    working-directory: ./DevOps/lab-3
 ```
 Здесь мы избавились от ненужных повторений. Теперь defaults вынесен отдельно, и не нужно каждый раз его дублировать.
    
