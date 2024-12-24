@@ -76,10 +76,10 @@ jobs:
   test:
     runs-on: ubuntu-22.04
     steps: 
-      - name: Checkout
+      - name: Check out
         uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.10'
@@ -94,10 +94,10 @@ jobs:
     needs: test
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout
+      - name: Check out
         uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.10'
