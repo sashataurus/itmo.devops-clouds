@@ -177,5 +177,7 @@ defaults:
 
 ---
 
-![image](https://github.com/user-attachments/assets/add8fc65-407e-472f-997d-b15bb1dfe512)
+![IMG_0932_photo-resizer ru (1)](https://github.com/user-attachments/assets/48990b57-e998-4c08-b94b-a9101b044e33)
+
+
 
