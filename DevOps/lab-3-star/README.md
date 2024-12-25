@@ -73,6 +73,7 @@ jobs:
 И вауля! Когда мы увидели галочку, эмоция была одна - слава богу :pray:
 
 ![image](https://github.com/user-attachments/assets/72385579-e1cd-434c-9ec2-aa49d1a719b6)
+
 ![image](https://github.com/user-attachments/assets/8f31c044-ffc0-4192-9af2-9bd6efe46f05)
 
 ## Ответы на вопросы
