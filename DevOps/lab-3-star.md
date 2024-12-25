@@ -1,8 +1,6 @@
 # Отчёт по лабораторной работе по DevOps №3⭐
 ## Содержание:
 - [Doppler](#doppler)
-- ["Good" Docker-compose](#good-docker-compose)
-- [Изоляция контейнеров](#изоляция-контейнеров)
 
 ## Doppler
 Мы выбрали облачную платформу Doppler, которая здорово помогла нам управлять секретами. В ней мы создали проект, который синхронизировали с гитхабом:
@@ -60,3 +58,5 @@ jobs:
         env:
           DEPLOY_PATH: ${{ secrets.SECRET_DEPLOY }}
         run: ./deploy.sh $DEPLOY_PATH
+```
+
