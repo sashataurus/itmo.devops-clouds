@@ -7,7 +7,6 @@
     "doppler-sync-secrets": "doppler secrets download --project=my-project --config=production --no-file"
   },
   "dependencies": {
-    "doppler": "^2.5.0",
     "axios": "^0.21.1"   
   }
 }
