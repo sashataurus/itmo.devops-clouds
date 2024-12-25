@@ -1,5 +1,5 @@
 {
-  "name": "my-ci-cd-app",
+  "name": "secrets",
   "version": "1.0.0",
   "scripts": {
     "build": "echo 'Building app...'",  
