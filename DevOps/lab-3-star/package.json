@@ -1,13 +1,13 @@
 {
-  "name": "my-project",
+  "name": "my-ci-cd-app",
   "version": "1.0.0",
-  "description": "My project description",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "build": "echo 'Building app...'",  
+    "deploy": "bash ./deploy.sh",   
+    "doppler-sync-secrets": "doppler secrets download --project=my-project --config=production --no-file"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "doppler": "^2.5.0",
+    "axios": "^0.21.1"   
   }
 }
-
